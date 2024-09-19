@@ -7,3 +7,72 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #ed9a1b;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.card p{
+    padding: 70px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+ .card1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 13%;
+    top: 30%;
+}
+.card h2{
+    text-align: center;
+    padding-bottom: 5px;
+    color: #ed9a1b;
+}
+.card1{
+    height: 300px;
+    width: 400px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+.card2{
+    height: 300px;
+    width: 400px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+.card2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: 30%;
+}
+.card3{
+    height: 300px;
+    width: 400px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+.card3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 78%;
+    top: 30%;
+}
